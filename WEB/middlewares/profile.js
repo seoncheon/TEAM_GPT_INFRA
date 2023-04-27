@@ -9,8 +9,8 @@ const profile = async (cookie) => {
     }).then((data) => {
         data2 = decryptRequest(data.data)
     })
-    const target = new Date("2023-4-20")
-    const start = new Date("2023-6-12")
+    const target = new Date("2023-6-12")
+    const start = new Date("2023-4-20")
     const cur = new Date();
     const dotime = cur - start;
     const totaltime = target - start;
